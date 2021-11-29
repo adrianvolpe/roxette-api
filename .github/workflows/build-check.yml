@@ -25,10 +25,10 @@ jobs:
           ignore-unfixed: true
           vuln-type: 'os,library'
           severity: 'CRITICAL,HIGH'
-  Release:
-    name: Release
+  release:
+    name: release
     needs: build
     runs-on: ubuntu-18.04
     steps:
       - name: Release to Docker repository
-      - run: echo "🎉  Releasing docker image to repository"
+        run: echo "🎉  Releasing docker image to repository"
