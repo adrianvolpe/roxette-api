@@ -23,5 +23,10 @@
         "name": "7Twenty7",
         "album": "I Wish I Could Fly",
         "duration": 221
+    },
+    {
+        "name": "test",
+        "album": "Test 1",
+        "duration": 300
     }
 ]
